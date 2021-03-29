@@ -1,0 +1,30 @@
+<!-- This Page is a Form for Adding new Products -->
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="utf-8"/>
+			<title>Cadastrar</title>
+		</head>
+	<body>
+
+		<h1>Cadastrar Novo Usuario</h1>
+		<br>
+
+		<form action="/register" method="post">
+			<label>Email</label>
+			<br>
+			<input type="text" name="email" placeholder="Email" required/>
+			<br><br>
+			<label >Senha</label>
+			<br>
+			<input type="password" name="senha" placeholder="Senha" required minlength="8"/>
+			<br><br>
+			<input type="submit" value="Registrar-se"/>
+			<br><br>
+			<label>Já é cadastrado?</label>
+			<br>
+			<button><a style="text-decoration: none;color:black;" href="/login_form">Fazer Login</a></button>
+		</form>
+
+	</body>
+</html>

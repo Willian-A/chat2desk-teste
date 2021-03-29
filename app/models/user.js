@@ -11,7 +11,7 @@ class UserDAO {
         }
     }
 
-    registerUser = (values) => {
+    insertUser = (values) => {
         fs.writeFileSync(".../../database/users.json", JSON.stringify(values));
     }
 }
